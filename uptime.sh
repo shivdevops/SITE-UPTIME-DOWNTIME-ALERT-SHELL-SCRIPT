@@ -1,15 +1,14 @@
 #!/bin/bash
 
+# provide mailid id for mail alert
 mailid="yourmailid"
 
-
+# provide the domain with https for monitoring
 for site in  https://your-domain https://yourdomain https://yourdomain https://yourdomain
 
 do
 
 	down=$(curl -I -s  $site | head -n 1 | cut -d " " -f 2)
-
-
 
 case $down in
 	
@@ -116,6 +115,5 @@ case $down in
 
                 ;; 
                 
-    
 esac
 done
