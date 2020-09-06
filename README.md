@@ -20,9 +20,9 @@
     
     # Note:  
     
-    * Provide your mailid for mail alert by repalcing "yourmailid" i.e mailid="yourmailid" in the brgining of the script.
+    * Provide your mailid for mail alert by replacing "yourmailid" i.e mailid="yourmailid" in the begining of the script.
     
-    * Enter the domains need to be  monitor.You can add multiple domains by replacing https://your-domain i.e for site in  https://your-domain https://yourdomain https://yourdomain https://yourdomain in the 6th line of the shell script.
+    * Enter the domains need to be  monitored.You can add multiple domains by replacing https://your-domain i.e for site in  https://your-domain https://yourdomain https://yourdomain https://yourdomain in the 6th line of the shell script.
 
 # Add cron:
 
