@@ -1,4 +1,4 @@
-# DISK STORAGE MEMORY USAGE CPU UTILIZATON ALERT SHELL SCRIPT
+# Server Uptime Downtime Alert Shell Script
 
 * Download the script.
 
