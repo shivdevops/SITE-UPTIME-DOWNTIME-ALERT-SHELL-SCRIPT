@@ -1,4 +1,4 @@
-# Server Uptime Downtime Alert Shell Script
+# Site Uptime Downtime Alert Shell Script
 
 * Download the script.
 
