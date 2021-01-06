@@ -10,7 +10,7 @@
     
     ` ` ` sudo ./uptime.sh ` ` `
     
-  # Prerequisite:
+  ## Prerequisite:
 
     * Ubuntu OS or Debian
     * Mail server
