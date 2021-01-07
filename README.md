@@ -10,27 +10,29 @@
     
     ` ` ` sudo ./uptime.sh ` ` `
     
-  ## Prerequisite:
+ ## Prerequisite:
 
-    * Ubuntu OS or Debian
-    * Mail server
+   * Ubuntu OS or Debian
+   * Mail server
        
-         For gmail ssmtp mail server installation: https://github.com/shivdevops/GMAIL-SSMTP-MAIL-SERVER-INSTALLATION-SHELL-SCRIPT 
+       * For gmail ssmtp mail server installation: https://github.com/shivdevops/GMAIL-SSMTP-MAIL-SERVER-INSTALLATION-SHELL-SCRIPT 
     
     
-    ## Note:  
+   ## Note:  
     
-    * Provide your mailid for mail alert by replacing "yourmailid" i.e mailid="yourmailid" in the begining of the script.
+   * Provide your mailid for mail alert by replacing "yourmailid" i.e mailid="yourmailid" in the begining of the script.
     
-    * Enter the domains need to be  monitored.You can add multiple domains by replacing https://your-domain i.e for site in  https://your-domain https://yourdomain https://yourdomain https://yourdomain in the 6th line of the shell script.
+   * Enter the domains need to be  monitored.You can add multiple domains by replacing https://your-domain i.e for site in  https://your-domain https://yourdomain https://yourdomain https://yourdomain in the 6th line of the shell script.
 
-    ### Add cron:
+   ### Add cron:
 
-     Need to automate the shell script for monitoring and alert, Add cron schedule.  
+   Need to automate the shell script for monitoring and alert, Add cron schedule.  
    
-     Example cron schedule for every minute: 
+   **Example:** 
+      
+   cron schedule for every minute. 
   
-     ` ` `  */1 * * * *  sh /home/uptime.sh ` ` `
+   ` ` `  */1 * * * *  sh /home/uptime.sh ` ` `
 
 
 
